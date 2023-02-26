@@ -402,7 +402,7 @@ client.on('interactionCreate', async (interaction) => {
         let loserSum = 0
         let winnerSum = 0
 
-        let winnerCount = []
+        let winnerCount : Bet[] = [];
 
         let newAmount
 
